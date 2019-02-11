@@ -334,8 +334,10 @@ body.impress-mouse-timeout {
 }
 
 .open-kitchen > h1 {
-
     margin-top: 200px;
+}
+
+.open-kitchen > h1 a {
     -webkit-text-stroke: 3px #0067ff;
     color: white;
     /*text-shadow:
@@ -345,15 +347,6 @@ body.impress-mouse-timeout {
             -1px 1px 0 #000,
             1px 1px 0 #000;*/
 }
-
-.archi {
-    background: url("../img/nuxeo-archi-2019.png") no-repeat center center white;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-}
-
 
 .behind {
     position: absolute;
@@ -375,6 +368,16 @@ body.impress-mouse-timeout {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.more {
+    background: url("../img/trees.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    /*-webkit-text-stroke: 1px #19756b;*/
 }
 
 .ai {
