@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nuxeo - Overview</title>
+    <meta name="description" content="Nuxeo - Overview"/>
+    <meta name="author" content="@mat_cloud"/>
+    <link href="css/3D-rotations.css" rel="stylesheet"/>
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b>.
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="1000">
+
+    <div id="hello" class="step"
+         data-x="0" data-y="500" data-z="0" data-goto-prev="overview">
+        <h1>&nbsp;</h1>
+        <a href="https://www.nuxeo.com/about/why-nuxeo/" target="_blank">
+            <img src="./img/nuxeo-logo340x60.png" width="100%"/>
+            &nbsp;
+        </a>
+        <!--<footer>@mat_cloud</footer>-->
+        <div class="notes">
+            <p>??? </p>
+        </div>
+    </div>
+
+    <div id="data" class="step data"
+         data-x="0" data-y="0" data-z="500" data-rotate-y="90" data-rotate-z="90" data-rotate-order="zyx">
+        <h1>DATA</h1>
+    </div>
+
+    <div id="open" class="step open-kitchen"
+         data-x="0" data-y="-500" data-z="0" data-rotate-y="180" data-rotate-z="180" data-rotate-order="zyx">
+        <h1>OPEN</h1>
+    </div>
+
+    <div id="acknowledgment" class="step"
+         data-x="0" data-y="0" data-z="-500" data-rotate-y="270" data-rotate-z="270" data-rotate-order="zyx">
+        <a href="https://www.nuxeo.com/resources/gartner-magic-quadrant-content-services-platforms/" target="_blank">
+            <img src="./img/gartner_2018.png" width="100%"/>
+        </a>
+    </div>
+
+    <div id="archi" class="step core"
+         data-x="0" data-y="500" data-z="-10" data-rotate-x="180" data-rotate-y="0" data-rotate-z="0"
+         data-rotate-order="zyx">
+
+        <div class="behind">
+            <h1 class="fly-in fly-out" style="transition-delay: 20s">PLATFORM</h1>
+            <h1 class="fly-in fly-out" style="transition-delay: 10s">SERVICES</h1>
+            <h1 class="fly-in fly-out" style="transition-delay: 1s">CONTENT</h1>
+        </div>
+        <div class="above">
+            <a class="fly-in fly-out"
+               style="transition-delay: 24s;position:relative; display:block; background: black; padding-top: 60px;"
+               href="https://www.nuxeo.com/resources/gartner-magic-quadrant-content-services-platforms/"
+               target="_blank">
+                <!--<img src="./img/happy-alien.png" height="100px"/>-->
+                <img src="./img/nuxeo-archi-2019-value.png" width="100%"/>
+            </a>
+            <div class="fly-in fly-out"
+                 style="transition-delay: 24s;position:relative; display:block; background: black;">
+                <img src="./img/nuxeo-cross2.png" height="60px" style="opacity: 0.3;"/>
+            </div>
+            <a class="fly-in fly-out"
+               style="transition-delay: 14s;position:relative; display:block;"
+               href="https://www.nuxeo.com/resources/gartner-magic-quadrant-content-services-platforms/"
+               target="_blank">
+                <img src="./img/nuxeo-archi-2019-core.png" width="100%"/>
+            </a>
+            <div class="fly-in fly-out" style="transition-delay: 14s;position:relative;">
+                <img src="./img/nuxeo-cross1.png" style="opacity: 0.3;"/>
+            </div>
+            <a class="fly-in fly-out" style="transition-delay: 4s;position:relative; display:block; "
+               href="https://www.nuxeo.com/resources/gartner-magic-quadrant-content-services-platforms/"
+               target="_blank">
+                <img src="./img/nuxeo-archi-2019-content.png" width="100%"/>
+            </a>
+        </div>
+
+        <div class="notes">
+            <p>???. </p>
+        </div>
+    </div>
+
+
+    <div id="low-code" class="step"
+         data-x="0" data-y="-10" data-z="500" data-rotate-x="180" data-rotate-y="90" data-rotate-z="90"
+         data-rotate-order="zyx">
+        <h2>Micro App</h2>
+        <h1>Big Value</h1>
+        <p>(lowCode != noCode)</p>
+    </div>
+
+
+    <div id="more" class="step" data-x="0" data-y="-500" data-z="10" data-rotate-x="180" data-rotate-y="180"
+         data-rotate-z="180"
+         data-rotate-order="zyx">
+        <p>&nbsp;</p>
+        <h3>More Connection</h3>
+        <h3>&nbsp;</h3>
+        <h3>More Robustness</h3>
+    </div>
+
+    <div id="ai" class="step ai" data-x="0" data-y="-10" data-z="-500" data-rotate-x="180" data-rotate-y="270"
+         data-rotate-z="270"
+         data-rotate-order="zyx">
+        <h2>More Intelligent</h2>
+    </div>
+
+
+    <!--
+    <div id="overview__" class="step overview" data-x="2018" data-y="106" data-z="3018" data-scale="2">
+        <p>Unlike the <code>x/y/z</code> coordinates (aka translations), the <code>rotate-x/y/z</code> rotations are
+            applied in a
+            specific order, and order matters. This demo presentation exhibits the use of the new <code>data-rotate-
+                order</code> attribute.
+            Instead of the default "xyz" order, the steps use the reversed <em>"zyx"</em> order in applying rotations
+            around each axis.
+            Some of the steps (<a href="#step-3">3</a> &amp; <a href="#step-7">7</a>), are in positions that are not
+            possible with the default "xyz" order.</p>
+    </div>-->
+
+    <div id="overview" class="step overview"
+         data-x="2000" data-y="0" data-z="0" data-scale="10" data-rotate-y="80"
+         data-rotate-x="20" data-rotate-z="25"
+         data-rotate-order="xyz" data-goto-next="hello">
+        <h2>Stay ahead.</h2>
+        <a href="https://www.nuxeo.com/about/why-nuxeo/" target="_blank"
+           style="position: absolute; top: 300px; left:0px;">
+            <img src="./img/nuxeo-logo340x60.png" width="100%"/>
+        </a>
+    </div>
+
+</div>
+
+<div id="impress-toolbar"></div>
+<!--<div id="impress-help"></div>-->
+
+<script type="text/javascript" src="../bower_components/impress-js/js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>

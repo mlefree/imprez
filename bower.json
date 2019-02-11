@@ -1,0 +1,22 @@
+{
+  "name": "@mat_cloud imprez",
+  "description": "",
+  "homepage": "https://mlefree.github.io/imprez/",
+  "license": [
+    "MIT"
+  ],
+  "main": [
+    "./index.html"
+  ],
+  "keywords": [
+    "@mat_cloud",
+    "imprez"
+  ],
+  "author": {
+    "name": "@mat_cloud",
+    "web": "http://mlefree.com"
+  },
+  "dependencies": {
+    "impress-js": "impress.js#^1.0.0"
+  }
+}
