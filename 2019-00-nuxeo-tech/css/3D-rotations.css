@@ -381,7 +381,7 @@ body.impress-mouse-timeout {
 }
 
 .ai {
-    background: url("../img/ai.jpg") no-repeat center center;
+    background: url("../img/ai2.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -389,6 +389,11 @@ body.impress-mouse-timeout {
 }
 
 .ai > h2 {
-    margin-top: 200px;
-    color: white;
+    margin-top: 350px;
+    margin-left: 40px;
+}
+
+.ai > h2 a {
+    color: #277dc2;
+    font-size: 60px;
 }
