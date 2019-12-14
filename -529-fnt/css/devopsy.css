@@ -1,0 +1,91 @@
+
+.devopsy .css-menu-devopsy {
+    border: solid 1px #aaaaaa;
+}
+
+body.devopsy {
+    background: rgba(81, 66, 66, 0.75);
+}
+
+.devopsy .step {
+    color: #ffff00;
+}
+
+/***** Styles *****/
+.devopsy h1,
+.devopsy h2,
+.devopsy h3 {
+    color: #ff6600;
+}
+
+.devopsy a {
+    color: #00ffff;
+}
+
+.devopsy blockquote {
+    text-shadow: 3px 3px 3px rgba(255, 100, 0, .7);
+}
+
+.devopsy em {
+    text-shadow: 3px 3px 3px rgba(255, 100, 0, .7);
+}
+
+.devopsy strong {
+    text-shadow: 3px 3px 3px rgba(255, 100, 0, .7);
+}
+
+.devopsy q {
+    text-shadow: 3px 3px 3px rgba(255, 100, 0, .7);
+}
+
+.devopsy strike {
+    opacity: 0.7;
+}
+
+.diapo {
+    position: relative;
+    width: 100%;
+}
+
+.diapo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* height: auto; */
+    /* width: auto; */
+    overflow: auto;
+    object-fit: cover;
+    bottom: 0;
+}
+
+.future .fly-in {
+    transform: translateY(-700px);
+    opacity: 0.0; /* Make it invisible, just so it doesn't clutter some other slide that might be in the position where we moved it */
+}
+
+.present .fly-in {
+    transform: translateY(0px);
+    opacity: 1.0;
+    transition: 2s;
+}
+
+.past .fly-out {
+    transform: translateY(700px);
+    opacity: 0.0;
+    transition: 2s;
+}
+
+.behind {
+    position: absolute;
+    z-index: 0;
+    color: white;
+}
+
+.above {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+}

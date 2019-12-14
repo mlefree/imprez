@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>-563 Buddha Life</title>
+    <meta name="description" content="..."/>
+    <link rel="stylesheet" href="../impress.js/extras/highlight/styles/github.css">
+    <link href="css/markdown-slides.css" rel="stylesheet"/>
+    <link href="css/devopsy.css" rel="stylesheet"/>
+    <link href="css/effects.css" rel="stylesheet"/>
+    <script type="text/javascript">
+        var enableBwCss = function () {
+            disableDevopsCss();
+            disableEffectsCss();
+        };
+        var enableDevopsCss = function () {
+            document.body.classList.add("devopsy");
+            disableEffectsCss();
+        };
+        var disableDevopsCss = function () {
+            document.body.classList.remove("devopsy");
+        };
+        var enableEffectsCss = function () {
+            document.body.classList.add("effects");
+            disableDevopsCss();
+        };
+        var disableEffectsCss = function () {
+            document.body.classList.remove("effects");
+        };
+    </script>
+</head>
+
+<body class="impress-not-supported effects">
+
+<video id="background" frameborder="0" allowfullscreen autoplay loop muted>
+    <source type="video/mp4" src="movies/bokeh1.mp4">
+</video>
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified
+        version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="1000">
+
+    <div id="Palace" class="step slide title js-slide"
+         data-rotate="0" data-x="0" data-y="0">
+        <h1>Siddhartha</h1>
+        <img src="images/indian_palace.jpg"/>
+    </div>
+
+    <div id="Old" class="step slide js-slide"
+         data-rotate="0" data-x="0" data-y="1000">
+        <h1>Oldness</h1>
+        <img src="images/oldman.png"/>
+    </div>
+
+    <div id="Sick" class="step slide js-slide"
+         data-rotate="0" data-x="0" data-y="2000">
+        <h1>Illness</h1>
+        <img src="images/india-sick.jpg"/>
+    </div>
+
+    <div id="Dead" class="step slide js-slide"
+         data-rotate="0" data-x="0" data-y="3000">
+        <h1>Dead</h1>
+        <img src="images/dead.jpg"/>
+    </div>
+    <div id="Yogi" class="step slide js-slide"
+         data-rotate="0" data-x="0" data-y="4000">
+        <h1>Renouncer</h1>
+        <img src="images/indi-yogi.jpg"/>
+    </div>
+
+    <div id="Asceticism" class="step slide js-slide"
+         data-rotate="-90" data-x="2000" data-y="2000" >
+        <h1>Asceticism</h1>
+        <img src="images/Siddhartha_Gautama_meditating.png"/>
+    </div>
+
+    <div id="Middle" class="step slide js-slide"
+         data-rotate="-120" data-x="2000" data-y="4000" data-z="500" data-scale="2">
+        <h1>Middle way</h1>
+        <img src="images/siddhartha.jpg"/>
+    </div>
+
+    <div id="Path" class="step slide js-slide"
+         data-rotate="-180" data-x="4000" data-y="6000" data-z="1000" data-scale="3">
+        <h1>Path</h1>
+        <img src="images/roue_du_dharma.jpg"/>
+    </div>
+
+    <div id="Overview" class="step"
+         data-rotate="0" data-x="7000" data-y="5000" data-z="2000" data-scale="10">
+        <p><i>"The purpose of all the major religious traditions is not to construct big temples on the outside,
+            but to create temples of goodness and compassion inside, in our hearts.</i></p>
+        <h3>Tenzin Gyatso, 14th Dalai Lama</h3>
+        <p><i>"The great challenge of our day is to help people be open to the transcendent and
+            to realize that we cannot be isolated from one another.”</i></p>
+        <h3>Pope Francis</h3>
+    </div>
+
+</div>
+
+<!--
+<div id="impress-toolbar"></div>
+<div id="impress-help"></div>
+-->
+<!-- Extra modules
+     Load highlight.js, mermaid.js and markdown.js from extras.
+     See also src/plugins/extras/extras.js -->
+<script type="text/javascript" src="../impress.js/extras/highlight/highlight.pack.js"></script>
+<script type="text/javascript" src="../impress.js/extras/mermaid/mermaid.min.js"></script>
+<!--
+<script type="text/javascript" src="../impress.js/extras/markdown/markdown.js"></script>
+
+    To make all described above really work, you need to include impress.js in the page.
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. 
+-->
+<script type="text/javascript" src="../impress.js/js/impress.js"></script>
+<script>
+    impress().init();
+    document.getElementById('background').play();
+</script>
+
+</body>
+</html>
