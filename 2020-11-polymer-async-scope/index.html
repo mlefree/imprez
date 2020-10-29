@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Nuxeo - Overview</title>
+    <meta name="description" content="Nuxeo - Overview"/>
+    <meta name="author" content="@mat_cloud"/>
+    <link href="css/3D-rotations.css" rel="stylesheet"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63329886-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-63329886-8');
+    </script>
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b>.
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="1000">
+
+    <div id="hello" class="step"
+         data-x="0" data-y="500" data-z="0" data-goto-prev="overview">
+        <img src="./img/nuxeo-logo340x60.png" width="100%"/>
+        <span>&nbsp; WebUI => Polymer</span>
+        <ul class="fly-in fly-out" style="transition-delay: 10ms;">
+            <li>Asynchronous</li>
+            <li>Scope</li>
+        </ul>
+    </div>
+
+    <div id="challenge" class="step"
+         data-x="0" data-y="0" data-z="500" data-rotate-y="90" data-rotate-z="90" data-rotate-order="zyx">
+        <h1>
+            <a href="https://plnkr.co/edit/Id8dupPl7XVWRwCb" target="_blank">Challenge \o/</a>
+        </h1>
+    </div>
+
+    <div id="engine" class="step"
+         data-x="0" data-y="-500" data-z="0" data-rotate-y="180" data-rotate-z="180" data-rotate-order="zyx">
+        <h1>A single threaded engine</h1>
+        <img src="./img/JS_engine.png" width="100%"/>
+    </div>
+
+    <div id="context" class="step"
+         data-x="0" data-y="0" data-z="-500" data-rotate-y="270" data-rotate-z="270" data-rotate-order="zyx">
+
+        <h3 class="fly-in fly-out" style="transition-delay: 10ms">Global Scope vs Local Scope</h3>
+        <h3 class="fly-in fly-out" style="transition-delay: 20ms">Block Statements : "var" vs "let" "const"</h3>
+        <h3 class="fly-in fly-out" style="transition-delay: 30ms">Context vs Execution Context</h3>
+        <h3 class="fly-in fly-out" style="transition-delay: 40ms">Lexical Scope vs Closure</h3>
+        <h3 class="fly-in fly-out" style="transition-delay: 50ms">ES5 Function vs ES6 Fat arrow</h3>
+
+    </div>
+
+    <div id="context-conclusion" class="step"
+         data-x="0" data-y="500" data-z="-10" data-rotate-x="180" data-rotate-y="0" data-rotate-z="0"
+         data-rotate-order="zyx">
+        <span>
+            In brief, when it's possible:
+        </span>
+        <h1>let, const, fat arrow</h1>
+        <span>
+            No more reason to bypass now:
+            <ul>
+            <li>https://caniuse.com/?search=const</li>
+            <li>https://caniuse.com/?search=arrow%20function</li>
+            </ul>
+        </span>
+    </div>
+
+    <div id="event" class="step"
+         data-x="0" data-y="-10" data-z="500" data-rotate-x="180" data-rotate-y="90" data-rotate-z="90"
+         data-rotate-order="zyx">
+        <img src="img/JS_eventLoop.gif" width="100%"/>
+        <h3 class="fly-in fly-out" style="transition-delay: 1s">Callbacks vs Promises... vs Async</h3>
+    </div>
+
+    <div id="event-conclusion" class="step"
+         data-x="0" data-y="-500" data-z="10" data-rotate-x="180" data-rotate-y="180"
+         data-rotate-z="180"
+         data-rotate-order="zyx">
+        <span>
+            In brief, when it's possible:
+        </span>
+        <h1>async, await</h1>
+        <span>
+            No more reason to bypass now:
+            <ul>
+            <li>https://caniuse.com/?search=async</li>
+            </ul>
+        </span>
+    </div>
+
+    <div id="challenge-end" class="step"
+         data-x="0" data-y="-10" data-z="-500" data-rotate-x="180" data-rotate-y="270"
+         data-rotate-z="270"
+         data-rotate-order="zyx">
+        <h1>Back to challenge</h1>
+    </div>
+
+    <div id="overview" class="step"
+         data-x="2000" data-y="0" data-z="0" data-scale="10" data-rotate-y="80"
+         data-rotate-x="20" data-rotate-z="25"
+         data-rotate-order="xyz" data-goto-next="hello">
+        <h2>Stay ahead.</h2>
+        <a href="https://www.nuxeo.com/about/why-nuxeo/" target="_blank"
+           style="position: absolute; top: 300px; left:0px;">
+            <img src="./img/nux.png" width="100%"/>
+        </a>
+    </div>
+
+</div>
+
+<div id="impress-toolbar"></div>
+<!--<div id="impress-help"></div>-->
+
+<script type="text/javascript" src="../bower_components/impress-js/js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
